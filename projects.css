@@ -1,0 +1,263 @@
+/* Font */
+
+.tweet{
+	font-family: "SF Pro Display","SF Pro Icons", "Helvetica";
+	font-weight: bold;
+}
+@font-face {
+    font-family:'SF Pro Display';
+    font-style:normal;
+    font-weight:700;
+    src:local('☺︎'), url("http://www.apple.com/wss/fonts/SF-Pro-Display/v1/sf-pro-display_bold.woff") format("woff"), url("http://www.apple.com/wss/fonts/SF-Pro-Display/v1/sf-pro-display_bold.ttf") format("truetype");
+    /* (C) 2015 Apple Inc. All rights reserved.*/
+  }
+
+.wrapper{
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+  margin: auto;
+    row-gap:  150px;
+    max-width: 1500px;
+	background: #FDFCFC;
+}
+.tweet{
+    font-family:'SF Pro Display';
+    font-weight: 700;
+	
+    
+}
+
+
+/* Horizontal Information */
+.containerHor{
+ grid-column: 1/ span 12;
+ margin: auto;
+ display: grid;
+ 
+ /* grid-template-columns: repeat(12, 1fr); */
+
+}
+
+.tweetH{
+    min-height: 100px;
+    max-width: 700px;
+  
+
+}
+
+
+
+
+.extendedH{
+    margin-bottom: 250px;
+}
+
+.hmw{
+    /* min-width: 800px; */
+    font-size: 32px;
+    margin-top: 20px;
+    justify-self: start;
+    font-family:'SF Pro Display';
+    font-weight: 400;
+   
+}
+
+/* HMW */
+.hmw-q{
+    grid-column: 2/ span 3;
+    justify-self: center;
+    grid-row: 1/ span 1;
+    font-family:'SF Pro Display';
+    font-weight: 700;
+    border-bottom: 2px solid ;
+}
+.hmw{
+    grid-column: 3/ span 7;
+    justify-self: center;
+    grid-row: 2/ span 1;
+    max-width: 700px;
+
+}
+.hypothesis{
+    max-width: 400px;
+}
+
+
+/* Left aligned Information */
+
+.containerLeft{
+    grid-column: 1/span 12;
+    display: grid;
+}
+.tweet-l{
+    grid-column: 1 /span 5;
+    max-width: 500px;
+    justify-self: end;
+    align-self: center;
+}
+
+
+
+
+/* Amanda's painoints */
+.pain-points{
+    max-width:  475px;
+    font-size: 30px;
+}
+.point{
+    width: 120px;
+    border-bottom: 1px solid #000000;
+    margin-bottom: 10px;
+}
+
+.hypothesis{
+    grid-column: 6/ span 7;
+    margin-left: 60px;
+}
+.hyp-text{
+    min-width: 523px;
+    font-size: 30px;
+}
+.hyp-points{
+    min-width: 520px;
+    
+}
+.hyp-points  li:first-of-type{
+    margin-top: 20px;
+}
+.hyp-points li{
+    margin-left: 35px;
+}
+
+/* Right aligned Information */
+.containerRight{
+    grid-column: 1/span 12;
+    display: grid;
+    
+}
+.tweetR{
+    grid-column: 6/ span 6;
+    
+    max-width: 500px;
+    justify-self: start;
+    margin-left: 60px;
+}
+.tweetR .tweetText{
+    width: 531px;
+}
+
+.tweetText{
+    font-size: 25px;
+    
+}
+.tweetText li {
+    margin-bottom: 10px;
+}
+.tweetText li:first-of-type{
+    margin-top: 10px;
+}
+
+.tweetText ul{
+    margin-top: 10px;
+}
+
+/*  Intervention*/
+
+
+/* Images */
+.problemSpace{
+    width: 872px;
+height: 304.66px;
+/* grid-column: 1 / span 12; 
+justify-self: center;  */
+/* grid-row: 2 / span 1;
+
+grid-area: problem-space; */
+margin-top: 400px;
+}
+.assumptions{
+    grid-column: 6/ span 7;
+    width: 625px;
+    height: 338px;
+    margin: auto;
+    margin-left: 50px;
+    
+}
+.interviews{
+    width: 560px;
+    height: 559.39px;
+   
+    justify-self: end;
+}
+.differentBehaviours{
+   min-width: 568px;
+   min-height: 232.79px;
+   grid-column: 6/ span 6;
+   margin-left: 60px;
+}
+.Amanda{
+    /* height: 422px;
+    width: 422px; */
+    width: 496px;
+height: 483.4px;
+     grid-column: 6 /span 6;
+    align-self: center;
+    margin-left: 60px;
+   
+}
+.sketches{
+    width: 596.13px;
+height: 371.83px;
+    grid-column: 6 / span 6;
+    justify-self: start;
+		margin-left: 60px;
+}
+.adjectives{
+	width: 587px;
+    height: 123px;
+	grid-column: 1 / span 6;
+	
+	
+}
+.compass{
+	grid-column: 1 / span 5;
+	width: 500px;
+	height: 500px;
+	justify-self: end;
+    margin-right: 60px;
+}
+
+.mid-fidelity{
+	grid-column: 6 /span 6;
+	margin-left: 60px;
+	align-self: center;
+}
+
+.mid-fid-1, .mid-fid-2{
+	width: 289.32px;
+height: 574px;
+}
+
+.moodboard{
+	grid-column: 6 / span 6;
+	width: 456.53px;
+	height: 409.52px;
+	margin-left: 60px;
+		
+}
+
+.moodboard-extraction{
+	grid-column: 1 / span 5;
+	width: 376px;
+	height: 326.96px;
+	margin-right: 60px;
+	justify-self: end;
+}
+
+.wordmark{
+	grid-column: 6 / span 6;
+	width: 578.15px;
+	height: 156.48px;
+	margin-left: 60px;
+	align-self: center;
+}
