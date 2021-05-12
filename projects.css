@@ -91,7 +91,7 @@
 }
 .tweet-l{
     grid-column: 1 /span 5;
-    max-width: 500px;
+    max-width: 550px;
     justify-self: end;
     align-self: center;
 }
@@ -263,5 +263,33 @@ height: 574px;
 }
 
 .google-ui{
+	grid-column: 1 / span 5;
+	width: 276.46px;
+	height: 599px;
+	justify-self: end;
+	margin-right: 60px;
+}
+.hf-maps{
+	grid-column: 6 / span 6;
+	margin-left: 60px;
+	align-self: center;
 	
+}
+.diagram-text{
+	margin-right: 60px;
+}
+.diagram{
+	width: 256.28px;
+	height: 256.28px;
+	margin-left: -60px;
+}
+
+.gif{
+	width: 269.1px;
+	height: 578px;
+	grid-column: 6 / span 6;
+	margin-left:60px;
+}
+.ui-text{
+	align-self: center;
 }
