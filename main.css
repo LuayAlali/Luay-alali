@@ -12,6 +12,9 @@
   src:local('☺︎'), url("http://www.apple.com/wss/fonts/SF-Pro-Display/v1/sf-pro-display_bold.woff") format("woff"), url("http://www.apple.com/wss/fonts/SF-Pro-Display/v1/sf-pro-display_bold.ttf") format("truetype");
   /* (C) 2015 Apple Inc. All rights reserved.*/
 }
+@font-face {
+  font-family:'SF Pro Display 500';
+	src:url("http://www.apple.com/wss/fonts/SF-Pro-Display/v1/sf-pro-display_medium.eot");}
 *{  
   background-color: rgb(9, 12, 19);
 }
@@ -48,8 +51,11 @@
 }
 .navbar-brand, .nav-link, .heroCall{
  color: #EEECEF;
- font-weight:500;
+	font-family: 'SF Pro Display';
 
+	font-size: 25px;
+ font-weight:500;
+	
 
 }
 .nav-link:hover, .navbar-brand:hover{

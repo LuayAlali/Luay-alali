@@ -11,6 +11,9 @@
     src:local('☺︎'), url("http://www.apple.com/wss/fonts/SF-Pro-Display/v1/sf-pro-display_bold.woff") format("woff"), url("http://www.apple.com/wss/fonts/SF-Pro-Display/v1/sf-pro-display_bold.ttf") format("truetype");
     /* (C) 2015 Apple Inc. All rights reserved.*/
   }
+@font-face {
+  font-family:'SF Pro Display 500';
+	src:url("http://www.apple.com/wss/fonts/SF-Pro-Display/v1/sf-pro-display_medium.eot");}
 
 .wrapper{
     display: grid;
@@ -19,12 +22,47 @@
     row-gap:  150px;
     max-width: 1500px;
 	background: #FDFCFC;
+	grid-template-rows: 55px 1fr;
 }
 .tweet{
     font-family:'SF Pro Display';
     font-weight: 700;
 	
     
+}
+
+/*navigation*/
+
+.navbar{
+    grid-column:  1 / span 12 ;
+    /* grid-area: navbar; */
+/*
+    padding-top: 30px;
+    padding-right: 20px;
+*/
+	padding: 40px;
+	background-color: rgba(9, 12, 19, .8);
+}
+
+.navbar-nav{
+  margin-left: auto;
+	
+}
+.navbar-brand, .nav-link, .heroCall{
+color: #EEECEF;
+	font-family: 'SF Pro Display';
+ font-weight:500;
+	font-size: 25px;
+
+
+}
+.nav-link:hover, .navbar-brand:hover{
+
+color: #CA574B;
+
+}
+.nav-link{
+  margin-left: 20px;
 }
 
 
