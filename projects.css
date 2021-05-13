@@ -82,6 +82,36 @@
     max-width: 400px;
 }
 
+/*Page Divider*/
+
+.divider{
+	grid-column: 1/ span 12;
+ 	
+ 	display: grid;
+	width: auto;
+	margin-left:130px;
+	margin-right: 130px;
+	
+	border-top:  5px  solid rgba(61, 46, 43, .5);
+	border-bottom: 5px  solid rgba(61, 46, 43, .5);
+	height: 370px;
+}
+
+.discover{
+	grid-column: 1/ span 5 ;
+	align-self: center;
+	justify-self: end;
+	margin-right: 60px;
+	
+}
+.section-header{
+	grid-column: 6/ span 6;
+	align-self: center;
+	margin-left: 60px;
+	font-size: 60px;
+	font-family:'SF Pro Display';
+	font-weight: 700;
+}
 
 /* Left aligned Information */
 
@@ -141,6 +171,7 @@
     max-width: 500px;
     justify-self: start;
     margin-left: 60px;
+	align-self: center;
 }
 .tweetR .tweetText{
     width: 531px;
@@ -289,6 +320,15 @@ height: 574px;
 	height: 578px;
 	grid-column: 6 / span 6;
 	margin-left:60px;
+}
+
+.hf-map{
+	width: 269.1px;
+	height: 578px;
+	grid-column: 1 / span 5;
+	margin-right: 60px;
+	align-self: center;
+		justify-self: end;
 }
 .ui-text{
 	align-self: center;
